@@ -1,0 +1,40 @@
+doctype html
+html(lang="sp")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="style.css")
+        title Modelo en cajas
+    body 
+        mixin cajas(name, name2) 
+            a(href="https://www.unc.edu.co/educacion-continua/", title="Visita la fundacion de comfenlaco para ver mas diplomados y cursos" target="_blank", rel="TikTok") 
+                h1= name
+                small= name2
+        +cajas("Caja 1","Hija 1")
+        +cajas("Caja 2","Hija 2")
+        br
+        h3 Tik 
+        h3 Tok
+        br
+        //- b Negrita
+        //- br
+        //- del Eliminado
+        //- small Pequeño
+        -var logo = '&#128151;';
+        mixin cajas2(name3) 
+            a(href="https://www.unc.edu.co/educacion-continua/", title="Visita la fundacion de comfenlaco para ver mas diplomados y cursos" target="_blank", rel="TikTok") 
+                h2 !{logo} #{name3} 
+                //- small= name2 
+        +cajas2("TikTok")
+        +cajas2("TikTok")
+        +cajas2("TikTok")
+        +cajas2("TikTok")
+        +cajas2("TikTok")
+        +cajas2("TikTok")
+        +cajas2("TikTok")
+        +cajas2("TikTok")
+        +cajas2("TikTok")
+        +cajas2("TikTok")      
+       
+        

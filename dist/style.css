@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: none; */
+}
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url(../Fuentes/Gotham-Bold.otf);
+}
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url(../Fuentes/Gotham-Black.otf);
+}
+h1{
+    background-color:cornsilk;
+    color: red;
+    font-size: 2em;
+    display: inline-block;
+    /* font-size: 30px; */
+    letter-spacing: .2em;
+    line-height: 1;
+    font-weight: 50;
+    text-shadow: 1px 2px 3px rgb(59, 59, 59);
+    /* text-shadow: 4px 2px 3px #f70c56,-4px -2px 3px #00c7d3, 1px 0px 1px white ; */
+        /* display: block; cuando va a ser en bloque*/
+    /* display: inline-block; crear bloque a lo ancho */
+    width: 250px;
+    height: 120px;
+}
+h2{
+    font-family: 'Gotham-Bold';
+    color: white;
+    font-size: 2em;
+    /* letter-spacing: .0em; */
+    line-height: 1.2;
+    /* font-weight: 700; */
+    text-shadow: 4px 2px 3px #f70c56,-4px -2px 3px #00c7d3, 1px 0px 1px white;
+    text-align: center;
+    display: inline-block;
+    background-color: #040000;
+    width: 140px;
+    height: 150px;
+    margin: 20px 10px;
+    padding: 155px 100px 100px 100px;
+    border-radius: 25px;
+    border: 5px dashed #78d0cc;
+
+}
+h2::first-letter{
+    font-family: 'Gotham-Black';
+    color: transparent;
+    font-size: 1.8em;
+    text-shadow: 1px 0px 1px white,-4px -2px 3px #00c7d3, 4px 2px 3px #f70c56 ;
+}
+
+h2:hover{
+    transform: rotate(-3deg);
+    border: 5px dashed #b15e6f;
+}
+h2:hover::first-letter{
+    font-size: 2em;
+    text-shadow: 1px 0px 1px #00c7d3, -4px -2px 3px #f70c56, 4px 2px 3px white ;
+}
+/* h1 small{
+    font-size: .5em;
+    color: blue;
+}
+small{
+    
+     font-size: 8px;
+} */
+h3{
+    font-family: 'Gotham-Bold';
+    color: white;
+    font-size: 2em;
+    /* letter-spacing: .0em; */
+        /* font-weight: 700; */
+    text-shadow: 4px 2px 3px #f70c56,-4px -2px 3px #00c7d3, 1px 0px 1px white;
+    /* text-align:center; */
+    display: inline-block;
+    background-color: #040000;
+    margin: 0px -9px;
+     width: 80px; 
+    /* height: 150px; */
+    
+    
+
+}
+h3::first-letter{
+    font-family: 'Gotham-Black';
+    color: transparent;
+    font-size: 1.8em;
+    text-shadow: 1px 0px 1px white,-4px -2px 3px #00c7d3, 4px 2px 3px #f70c56 ;
+}
